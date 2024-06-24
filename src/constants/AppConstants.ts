@@ -1,0 +1,22 @@
+export const ResponseStatusConst = {
+  SUCCESS: "SUCCESS",
+  FAIL: "FAIL",
+};
+
+export const FormatDateTimeConst = {
+  DDMMYYYY_SLASH: "DD/MM/YYYY",
+  DDMMMYYYY_SPACE: "DD MMM YYYY",
+  DDMMYYYY_TIME_SLASH: "DD/MM/YYYY HH:mm:ss",
+  FULLDATETIME: "YYYY-MM-DD HH:mm:ss",
+  FULLDATETIME_NO_SECOND: "YYYY-MM-DD HH:mm",
+  FULLDATETIME_BETWEEN: {
+    START: "YYYY-MM-DD 00:00:00",
+    END: "YYYY-MM-DD 23:59:59",
+  },
+  DATE_NO_SPACE: "YYYYMMDD HH:mm",
+  DATEFULL_NO_SPACE: "YYYYMMDD",
+  FULLDATE: "YYYY-MM-DD",
+  YEAR_MONTH_MINUS: "YYYY-MM",
+  TIME_HH_mm: "HH:mm",
+  TIME_HH_mm_ss: "HH:mm:ss",
+};
